@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3, 
+    "version": "1.0", 
+    "name": "saveme", 
+    "action": {
+        "default_popup" : "saveme.html"
+    }, 
+    "permissions":[
+        "tabs", 
+        "http:///",
+        "alarms"
+    ]
+}

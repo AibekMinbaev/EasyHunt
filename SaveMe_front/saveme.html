@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaveMe</title>
+    <link rel="stylesheet" href="saveme.css"> 
+</head>
+<body>  
+    <a href="http://127.0.0.1:8000/saveme/dashboard/" target="_blank" rel="noopener noreferrer">MY DASHBOARD</a>    
+    
+    <form>
+        <input type="text" id="company" name="company" placeholder="Company"><br> 
+        <input type="text" id="country" name="country" placeholder="Country"><br>
+        <input type="text" id="city" name="city" placeholder="City/Town"><br>
+        <input type="text" id="comment" name="comment" placeholder="Comments"><br>
+        <input type="url" id="url" name="url" placeholder="URL"><br>
+        
+        <input type="radio" id="status1" name="status" value="WA" checked>
+        <label for="status1">Will Apply</label>
+        <input type="radio" id="status2" name="status" value="A">
+        <label for="status2">Applied</label><br>
+       
+        <button id="save-btn">Save</button>
+        <!-- <button onclick="clearForm()">Clear</button><br>  Define the purpose of Delete, maybe it should clear the form -->
+    </form> 
+
+
+    <p>My Applications:</p>
+    <input type="text" id="search-company" placeholder="Company" size="12">
+
+    <select id="status-dropdown">
+        <option value="All" selected>All</option>
+        <option value="A">Applied</option>
+        <option value="WA">Will Apply</option>
+        <option value="R">Rejected</option>
+        <option value="OA">OA</option>
+        <option value="I1">Intrvw 1</option>
+        <option value="I2">Intrvw 2</option>
+        <option value="I3">Intrvw 3</option>
+        <option value="I4">Intrvw 4</option>
+    </select>
+
+    <button id="search-btn">Search</button><br> <!-- I would like to add search icon instead of Search word-->
+    <ul id="search-results"> 
+    </ul>
+
+    <script src="saveme.js"></script>  
+</body>
+</html>
+

@@ -1,0 +1,20 @@
+body {
+    text-align: center; 
+    min-width: 400px;
+}
+
+
+input { 
+    margin: 1px; 
+} 
+
+#search { 
+    padding: 5px;
+    font-size: 17px; 
+
+}
+
+#search-results{
+    text-align: left;
+} 
+

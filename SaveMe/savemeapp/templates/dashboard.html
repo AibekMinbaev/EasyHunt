@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dashboard</title>
+</head>
+<body>
+    <h2 style="text-align: center;"> Welcome, Aibek Minbaev</h2>
+    <h3>Will Apply</h3> 
+    <ul>
+        {% for elem in wa%}
+        <li>{{elem}}</li> 
+        {%endfor%} 
+    </ul>
+
+    <h3>Applied</h3> 
+    <ul>
+        {% for elem in a%}
+        <li>{{elem}}</li> 
+        {%endfor%} 
+    </ul>
+
+    <h3>Online Assesment</h3> 
+    <ul>
+        {% for elem in oa%}
+        <li>{{elem}}</li> 
+        {%endfor%} 
+    </ul>
+
+    <h3>Interview 1</h3>  
+    <ul>
+        {% for elem in i1%}
+        <li>{{elem}}</li> 
+        {%endfor%} 
+    </ul>
+    
+    <h3>Interview 2</h3>  
+    <ul>
+        {% for elem in i2%}
+        <li>{{elem}}</li> 
+        {%endfor%} 
+    </ul> 
+
+    <h3>Interview 3</h3>  
+    <ul>
+        {% for elem in i3%}
+        <li>{{elem}}</li> 
+        {%endfor%} 
+    </ul> 
+
+    <h3>Interview 4</h3>  
+    <ul>
+        {% for elem in i4%}
+        <li>{{elem}}</li> 
+        {%endfor%} 
+    </ul> 
+
+    <h3>Rejected</h3> 
+    <ul>
+        {% for elem in r%}
+        <li>{{elem}}</li> 
+        {%endfor%} 
+    </ul>
+
+</body>
+</html>

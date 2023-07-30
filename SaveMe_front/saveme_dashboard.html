@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="saveme_dashboard.css"> 
+</head>
+<body>
+    <h2 style = "text-align: center; "> Hello, Aibek Minbaev</h2> 
+    <div class="search" style="text-align: center;">
+        <input type="text" id="search-company" placeholder="Company" size="12">
+        <select id="status-dropdown">
+            <option value="All" selected>All</option>
+            <option value="A">Applied</option>
+            <option value="WA">Will Apply</option>
+            <option value="R">Rejected</option>
+            <option value="OA">OA</option>
+            <option value="I1">Intrvw 1</option>
+            <option value="I2">Intrvw 2</option>
+            <option value="I3">Intrvw 3</option>
+            <option value="I4">Intrvw 4</option>
+        </select>
+        <button id="search-btn">Search</button><br>
+    </div>
+    <hr class="divider"> <!-- Dividing line --> 
+
+    <div class="container">
+        <div class="section">
+          <h3>Will Apply</h3>
+          <ul id="section1">
+          </ul>
+        </div>
+    
+        <div class="section">
+          <h3>Applied</h3>
+          <ul id="section2">
+          </ul>
+        </div>
+    
+        <div class="section">
+          <h3>Online Assessment</h3>
+          <ul id="section3">
+          </ul>
+        </div>
+    
+        <div class="section">
+          <h3>Interview 1</h3>
+          <ul id="section4">
+          </ul>
+        </div>
+    
+        <div class="section">
+          <h3>Interview 2</h3>
+          <ul id="section5">
+          </ul>
+        </div>
+    </div>
+
+
+
+
+    <script src="saveme_dashboard.js"></script>
+</body>
+</html>
